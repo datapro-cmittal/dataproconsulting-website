@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Datapro Consulting Limited — independent technology and data consultancy in the United Kingdom.">
+  <meta name="theme-color" content="#101b2b">
+  <title>Datapro Consulting Limited | Technology & Data Consultancy</title>
+  <style>
+    :root { color-scheme: light; --ink:#142238; --muted:#627087; --blue:#315f91; --line:#e4eaf1; --paper:#f7f9fc; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; background:#fff; color:var(--ink); font:16px/1.65 Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    a { color:inherit; }
+    .wrap { width:min(1080px, calc(100% - 48px)); margin:auto; }
+    header { border-bottom:1px solid var(--line); }
+    .nav { min-height:82px; display:flex; align-items:center; justify-content:space-between; gap:20px; }
+    .brand { font-weight:750; letter-spacing:-.035em; font-size:1.15rem; }
+    .brand span { color:var(--blue); }
+    .nav a { text-decoration:none; color:var(--muted); font-size:.93rem; }
+    .hero { padding:104px 0 94px; background:linear-gradient(135deg,#f7f9fc 0%,#fff 68%); }
+    .eyebrow { color:var(--blue); font-size:.78rem; text-transform:uppercase; letter-spacing:.16em; font-weight:750; }
+    h1 { max-width:780px; margin:18px 0 20px; font-size:clamp(2.55rem,6vw,4.6rem); line-height:1.08; letter-spacing:-.055em; font-weight:720; }
+    .intro { max-width:690px; color:var(--muted); font-size:1.18rem; line-height:1.75; }
+    .cta { display:inline-flex; margin-top:24px; padding:12px 19px; border-radius:5px; background:var(--ink); color:#fff; text-decoration:none; font-weight:650; }
+    section { padding:76px 0; }
+    .section-head { max-width:650px; margin-bottom:32px; }
+    h2 { margin:0 0 12px; font-size:clamp(1.8rem,3.5vw,2.5rem); line-height:1.2; letter-spacing:-.04em; }
+    .sub { margin:0; color:var(--muted); }
+    .services { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; }
+    .service { padding:25px 26px; border:1px solid var(--line); border-radius:8px; background:#fff; }
+    .service h3 { margin:0 0 8px; font-size:1.08rem; }
+    .service p { margin:0; color:var(--muted); font-size:.96rem; }
+    .approach { background:var(--paper); }
+    .approach p { max-width:760px; color:var(--muted); font-size:1.06rem; }
+    .contact { display:flex; justify-content:space-between; align-items:center; gap:30px; padding:32px; border:1px solid var(--line); border-radius:8px; }
+    .contact p { margin:8px 0 0; color:var(--muted); }
+    .contact a { color:var(--blue); font-weight:700; text-decoration:none; overflow-wrap:anywhere; }
+    footer { padding:30px 0 36px; border-top:1px solid var(--line); color:var(--muted); font-size:.85rem; }
+    footer p { margin:5px 0; }
+    @media (max-width:650px) {
+      .wrap { width:min(100% - 36px,1080px); }
+      .hero { padding:76px 0 70px; }
+      section { padding:58px 0; }
+      .services { grid-template-columns:1fr; }
+      .contact { align-items:flex-start; flex-direction:column; padding:24px; }
+      .nav { min-height:70px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <div class="brand">datapro<span>.</span></div>
+      <a href="#contact">Get in touch</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <div class="eyebrow">Independent technology consultancy</div>
+        <h1>Turning complex data and technology into practical outcomes.</h1>
+        <p class="intro">Datapro Consulting Limited provides independent technology and data consultancy, helping organisations shape, deliver and improve modern data platforms and technology solutions.</p>
+        <a class="cta" href="mailto:info@dataproconsulting.co.uk">Contact Datapro</a>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="section-head">
+          <div class="eyebrow">What we do</div>
+          <h2>Technology expertise, focused on delivery.</h2>
+          <p class="sub">Support across the data and technology lifecycle, from direction and architecture through to delivery.</p>
+        </div>
+        <div class="services">
+          <article class="service">
+            <h3>Data Engineering</h3>
+            <p>Design and delivery of dependable data pipelines, platforms and engineering practices.</p>
+          </article>
+          <article class="service">
+            <h3>Technology Architecture</h3>
+            <p>Practical architecture guidance to help align technology choices with business needs.</p>
+          </article>
+          <article class="service">
+            <h3>Cloud &amp; Data Platforms</h3>
+            <p>Advice on modern cloud-based data environments, platform design and integration.</p>
+          </article>
+          <article class="service">
+            <h3>Technical Delivery</h3>
+            <p>Technology leadership and product-focused delivery to move complex initiatives forward.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="approach">
+      <div class="wrap">
+        <div class="eyebrow">Our approach</div>
+        <h2>Clear thinking. Sound engineering. Measurable progress.</h2>
+        <p>We take a straightforward, collaborative approach: understand the problem, identify a proportionate solution and keep delivery grounded in real organisational outcomes.</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="wrap">
+        <div class="contact">
+          <div>
+            <div class="eyebrow">Contact</div>
+            <h2>Start a conversation.</h2>
+            <p>For professional enquiries, please get in touch by email.</p>
+          </div>
+          <a href="mailto:info@dataproconsulting.co.uk">info@dataproconsulting.co.uk</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p><strong>Datapro Consulting Limited</strong></p>
+      <p>Registered in England and Wales · Company number: 17387932</p>
+      <p>Registered office: Building 7 Chiswick Park, 566 Chiswick High Road, London, England, W4 5YG</p>
+      <p>© <span id="year">2026</span> Datapro Consulting Limited. All rights reserved.</p>
+    </div>
+  </footer>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
