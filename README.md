@@ -23,6 +23,3 @@ Replace `YOUR-USERNAME` with your actual GitHub username (no repository name in 
 **Important:** Do not delete or change Microsoft 365 MX, TXT, or CNAME records used for email (including MX, SPF, autodiscover, DKIM and DMARC records). Add the website records alongside them. If an `@` A record already exists for another website, check before replacing it.
 
 After DNS propagates, return to Settings → Pages and enable **Enforce HTTPS** when GitHub makes it available.
-
-## Before publishing
-Check the service descriptions and registered office details are correct. This is a simple information site and does not itself establish outside-IR35 status.
